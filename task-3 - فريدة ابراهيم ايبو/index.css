@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+    width: 100vw;
+    background-color: rgb(39, 39, 73);  
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.navHaeder{
+    padding-left: 5%;
+    color: white;
+}
+.navBuutons{
+    padding-right: 5%;
+    
+}
+.navBuutons button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.navBuutons button:hover{
+    color: gray;
+}
+.first{
+    background-color: lightseagreen;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first img{
+    width: 10%;
+}
+.header1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.lines{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    width: 150px;
+}
+.desc{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.porto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.porto p{
+    font-size: 30px;
+    font-weight: 700
+}
+
+.porto img{
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  lightseagreen;
+    color: #FFFFFF;
+  }
+  .container h2 {
+    font-size: 30px;
+  }
+  .aboutLines{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutPara{
+    width: 60%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 19px;
+  }
+  .aboutPara p{
+    width: 45%;
+  }
+  
+  .download-button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border:  2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px
+}
+
+label {
+    width: 50%;
+}
+input{
+    width: 50%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid rgb(100, 97, 97);
+    margin-bottom: 18px;
+}
+.message{
+    width: 50%;
+    height: 10vh;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid rgb(100, 97, 97);
+    margin-bottom: 18px;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    background-color:  lightseagreen;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+p{
+    margin-left:16px;
+}
